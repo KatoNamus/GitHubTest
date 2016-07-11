@@ -11,7 +11,9 @@ namespace TestingGitHub
 	{
 		static void Main(string[] args)
 		{
-			WriteLine($"Hello GitHub, it is now {DateTime.Now.ToString("d MMMM yyyy, HH:mm")}");			
+			WriteLine($"Hello GitHub, it is now {DateTime.Now.ToString("d MMMM yyyy, HH:mm")}");
+
+			WriteLine("Testing addition");
 		}
 	}
 }
